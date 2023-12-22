@@ -44,6 +44,8 @@ svg {
 
 .header-section {
    border-bottom: 1px solid #e7e9fc;
+   width: 1440px;
+   height: 72px;
 }
 
 .header-container {
@@ -53,6 +55,8 @@ svg {
    justify-content: space-between;
    border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
    background: var(--WHITE, #fff);
+   width: 1440px;
+   height: 72px;
 }
 
 .container {
@@ -88,7 +92,7 @@ svg {
 .contact-list {
    display: flex;
    gap: 40px;
-   margin-bottom: 0px;
+   margin-bottom: 0;
 }
 
 .logo {
