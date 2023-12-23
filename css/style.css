@@ -222,6 +222,7 @@ svg {
    justify-content: center;
    align-items: center;
    padding: 24px 100px;
+   margin-bottom: 8px;
 }
 
 .section-one-item {
