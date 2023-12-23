@@ -594,12 +594,12 @@ svg {
 }
 
 .first-footer-element {
-   gap: 120px;
-   padding: 0px 0px 100px 140px;
+   margin-right: 120px;
+   padding-left: 156px;
 }
 
 .second-footer-element {
-   padding: 0px 0px 0px 0px;
+   margin-left: 0px;
 }
 
 .footer-logo {
