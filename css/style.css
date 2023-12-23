@@ -428,7 +428,7 @@ svg {
 
 .fourth-section {
    background-color: var(--white);
-   padding: 120px 156px;
+   padding: 120px 0;
    min-width: 1128px;
    min-height: 200px;
 }
