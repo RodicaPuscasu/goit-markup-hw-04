@@ -43,6 +43,12 @@ svg {
    overflow: hidden;
 }
 
+.container {
+   width: 1158px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
 .header-section {
    border-bottom: 1px solid #e7e9fc;
    width: 1440px;
@@ -59,12 +65,6 @@ svg {
    background: var(--WHITE, #fff);
    width: 1440px;
    height: 72px;
-}
-
-.container {
-   width: 1158px;
-   margin: 0 auto;
-   padding: 0 15px;
 }
 
 .nav-logo {
@@ -91,13 +91,6 @@ svg {
 
 .nav-list:last-child {
    margin-right: 0;
-}
-
-.contact-list {
-   display: flex;
-   gap: 40px;
-   align-items: center;
-   justify-content: center;
 }
 
 .logo {
@@ -143,6 +136,12 @@ svg {
    text-decoration: none;
 }
 
+.contacts-address {
+   display: flex;
+   font-style: normal;
+   justify-content: center;
+}
+
 .contacts {
    color: var(--SLATE, #434455);
    font-family: "Roboto", sans-serif;
@@ -152,7 +151,7 @@ svg {
    line-height: 150%;
    /* 150% */
    letter-spacing: 0.32px;
-   justify-content: center;
+   align-self: center;
 }
 
 .contacts:hover,
@@ -164,12 +163,10 @@ svg {
 .contact-list {
    display: flex;
    justify-content: center;
-   gap: 24px;
-   padding: 12px 24px;
-   border-radius: 4px;
    align-items: center;
+   gap: 40px;
    margin-bottom: 72px;
-   margin-top: 0;
+   border-radius: 4px;
 }
 
 .hero-section {
@@ -241,9 +238,6 @@ svg {
    align-items: center;
    padding: 24px 100px;
    margin-bottom: 8px;
-}
-
-.section-one-svg {
 }
 
 .section-one-item {
@@ -498,10 +492,10 @@ svg {
 }
 
 .filter-button-list {
-   padding: 96px 427px 72px 427px;
    display: flex;
-   justify-content: center;
+   padding: 96px 427px 72px 427px;
    align-items: center;
+   justify-content: center;
    gap: 24px;
 }
 
@@ -585,10 +579,6 @@ svg {
    font-weight: 400;
    line-height: 150%;
    letter-spacing: 0.32px;
-}
-
-.contacts-address {
-   font-style: normal;
 }
 
 .footer-container {
