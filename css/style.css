@@ -429,7 +429,6 @@ svg {
 .fourth-section {
    background-color: var(--white);
    padding: 120px 0px;
-   margin: 0;
 }
 
 .section-four-title {
@@ -442,6 +441,7 @@ svg {
    letter-spacing: 0.72px;
    text-transform: capitalize;
    margin-bottom: 72px;
+   margin-top: 0;
 }
 
 .section-four-container {
