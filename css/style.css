@@ -71,12 +71,14 @@ svg {
    padding-top: 25.5px;
    padding-bottom: 25.5px;
    align-self: center;
+   justify-content: center;
    margin-right: 76px;
 }
 
 .nav-links {
    display: flex;
    align-items: center;
+   justify-content: center;
 }
 
 .nav-list {
@@ -94,6 +96,8 @@ svg {
 .contact-list {
    display: flex;
    gap: 40px;
+   align-items: center;
+   justify-content: center;
 }
 
 .logo {
@@ -106,6 +110,8 @@ svg {
    /* 116.667% */
    letter-spacing: 0.54px;
    text-transform: uppercase;
+   align-items: center;
+   justify-content: center;
 }
 
 .logo-span-header {
@@ -153,6 +159,17 @@ svg {
 .contacts:focus {
    color: var(--ocean);
    text-decoration: none;
+}
+
+.contact-list {
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+   padding: 12px 24px;
+   border-radius: 4px;
+   align-items: center;
+   margin-bottom: 72px;
+   margin-top: 0;
 }
 
 .hero-section {
@@ -468,16 +485,6 @@ svg {
    height: 56px;
 }
 
-.contact-list {
-   display: flex;
-   justify-content: center;
-   gap: 24px;
-   padding: 12px 24px;
-   border-radius: 4px;
-   align-items: center;
-   margin-bottom: 72px;
-}
-
 .section-one-portfolio {
    color: var(--NAVY-BLUE, #2e2f42);
    font-family: "Roboto", sans-serif;
@@ -608,12 +615,15 @@ svg {
 .first-footer-element {
    padding-left: 0px;
    margin-right: 120px;
+   margin-left: 0px;
+   max-width: 264px;
 }
 
 .second-footer-element {
    margin-left: 0px;
    padding-right: 0px;
    padding-left: 0px;
+   max-width: 208px;
 }
 
 .footer-logo {
