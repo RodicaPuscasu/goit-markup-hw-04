@@ -428,7 +428,9 @@ svg {
 
 .fourth-section {
    background-color: var(--white);
-   padding: 120px 0px;
+   padding: 120px 156px;
+   min-width: 1128px;
+   min-height: 200px;
 }
 
 .section-four-title {
@@ -448,8 +450,7 @@ svg {
    display: flex;
    flex-direction: row;
    gap: 24px;
-   width: 1128px;
-   height: 200px;
+
    justify-content: center;
    align-items: center;
    padding-left: 0px;
