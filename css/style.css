@@ -53,7 +53,6 @@ svg {
 
 .header-container {
    display: flex;
-   align-items: center;
    padding: 24px 156px;
    justify-content: space-between;
    border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
@@ -147,7 +146,7 @@ svg {
    line-height: 150%;
    /* 150% */
    letter-spacing: 0.32px;
-   margin-bottom: 0px;
+   justify-content: center;
 }
 
 .contacts:hover,
@@ -413,6 +412,7 @@ svg {
 .fourth-section {
    background-color: var(--white);
    padding: 120px 0px;
+   margin: 0;
 }
 
 .section-four-title {
@@ -437,6 +437,7 @@ svg {
    align-items: center;
    padding-left: 0px;
    margin-top: 0px;
+   margin-bottom: 0px;
 }
 
 .section-four-item {
@@ -605,13 +606,13 @@ svg {
 }
 
 .first-footer-element {
-   margin-right: 120px;
-   padding-left: 156px;
+   margin-right: 0px;
+   padding-left: 0px;
 }
 
 .second-footer-element {
    margin-left: 0px;
-   padding-right: 692px;
+   padding-right: 0px;
    padding-left: 0px;
 }
 
