@@ -668,6 +668,7 @@ svg {
    font-weight: 500;
    line-height: 150%; /* 150% */
    letter-spacing: 0.32px;
+   margin-bottom: 16px;
 }
 
 .footer-social-media-list {
