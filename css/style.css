@@ -457,7 +457,7 @@ svg {
 }
 
 .client-icon {
-   fill: rgba(142, 143, 153, 1);
+   fill: currentColor;
 }
 
 .section-four-item:hover {
