@@ -226,6 +226,11 @@ svg {
    margin-bottom: 8px;
 }
 
+.section-one-svg {
+   width: 64px;
+   height: 64px;
+}
+
 .section-one-item {
    display: flex;
    width: 100%;
@@ -399,6 +404,8 @@ svg {
 
 .svg-icon {
    fill: var(--cloud);
+   width: 16px;
+   height: 16px;
 }
 
 .social-media-link:hover,
@@ -432,6 +439,7 @@ svg {
    justify-content: center;
    align-items: center;
    padding-left: 0px;
+   margin-top: 0px;
 }
 
 .section-four-item {
@@ -458,6 +466,8 @@ svg {
 
 .client-icon {
    fill: currentColor;
+   width: 104px;
+   height: 56px;
 }
 
 .contact-list {
