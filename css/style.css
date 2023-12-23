@@ -396,8 +396,12 @@ svg {
    justify-content: center;
 }
 
+.svg-icon {
+   fill: var(--cloud);
+}
+
 .social-media-link:hover,
-.social-media-link: :focus {
+.social-media-link:focus {
    background-color: #404bbf;
 }
 
