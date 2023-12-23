@@ -644,7 +644,7 @@ svg {
    font-family: "Roboto", sans-serif;
    letter-spacing: 0.32px;
    padding: 0;
-   max-width: 264px;
+   width: 264px;
    font-size: 16px;
    font-weight: 400;
    line-height: 1.5em;
