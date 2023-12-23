@@ -228,8 +228,6 @@ svg {
 }
 
 .section-one-svg {
-   width: 64px;
-   height: 64px;
 }
 
 .section-one-item {
@@ -405,8 +403,6 @@ svg {
 
 .svg-icon {
    fill: var(--cloud);
-   width: 16px;
-   height: 16px;
 }
 
 .social-media-link:hover,
@@ -701,6 +697,4 @@ svg {
 
 .footer-svg {
    fill: var(--cloud);
-   width: 24px;
-   height: 24px;
 }
