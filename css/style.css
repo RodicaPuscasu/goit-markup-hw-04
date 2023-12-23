@@ -535,8 +535,12 @@ svg {
    flex-basis: calc((100% - 48px) / 3);
 }
 
-.project-card:hover,
-.project-card:focus {
+.project-link {
+   display: block;
+}
+
+.project-link:hover,
+.project-link:focus {
    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
       0px 1px 1px 0px rgba(46, 47, 66, 0.16),
       0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -600,6 +604,8 @@ svg {
 
 .second-footer-element {
    margin-left: 0px;
+   padding-right: 692px;
+   padding-left: 0px;
 }
 
 .footer-logo {
