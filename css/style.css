@@ -681,4 +681,6 @@ svg {
 
 .footer-svg {
    fill: var(--cloud);
+   width: 24px;
+   height: 24px;
 }
