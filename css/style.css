@@ -164,6 +164,9 @@ svg {
    text-align: center;
    gap: 48px;
    padding: 188px 0;
+   max-width: 1440px;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 .hero-title {
