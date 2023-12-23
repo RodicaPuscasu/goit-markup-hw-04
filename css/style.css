@@ -647,7 +647,7 @@ svg {
    font-size: 16px;
    font-weight: 400;
    line-height: 1.5em;
-   margin-top: 24px;
+   margin-top: 0;
 }
 
 .logo-span-footer {
@@ -678,6 +678,7 @@ svg {
    justify-content: center;
    list-style-type: none;
    padding: 0;
+   margin: 0;
 }
 
 .footer-social-media-icon {
