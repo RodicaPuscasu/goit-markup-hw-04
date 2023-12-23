@@ -328,7 +328,7 @@ svg {
 .section-three-title {
    color: var(--navy-blue);
    font-size: 36px;
-   font-weight: 700px;
+   font-weight: 700;
    line-height: 1.11;
    letter-spacing: 0.72px;
    text-align: center;
@@ -360,7 +360,7 @@ svg {
    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
       0px 1px 1px 0px rgba(46, 47, 66, 0.16),
       0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-   width: calc((100%-72px) / 4);
+   flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-member-description {
@@ -668,7 +668,6 @@ svg {
    font-weight: 500;
    line-height: 150%; /* 150% */
    letter-spacing: 0.32px;
-   margin-bottom: 16px;
 }
 
 .footer-social-media-list {
